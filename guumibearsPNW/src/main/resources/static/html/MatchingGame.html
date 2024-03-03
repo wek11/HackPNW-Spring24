@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <!-- Creates a nav tag that is a set of navigation links-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-burgundy">
+            <a class="navbar-brand" href="#">Recall Rumble</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+            <!-- Unordered list that has li elements, containing hyperlinks to the different html pages-->
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                <li class="nav-item">
+                <a class="nav-link" href="main.html">Home</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="MakeSet.html">Make A Set</a>
+                </li>
+                <li class="nav-item active">
+                <a class="nav-link" href="MatchingGame.html">Play<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="#">Extra</a>
+                </li>
+            </ul>
+            <!-- A search button incase we need to keep it, just using it as a reference-->
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+            </div>
+        </nav>
+
+        <meta charset="'UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <h1 class="h1">Matching Game</h1>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="../css/MatchingGame.css">
+        
+    </head>
+    <body class="body">
+        <div class="grid-container"></div>
+        <p class="p">Score: <span class="score"></span></p>
+
+        <div class="actions">
+            <button onclick="restart()">Restart</button>
+        </div>
+        <script src="../js/MatchingGame.js"></script>
+
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <!-- Splash Screen -->
+    <div class="splash rounded" id="win-screen" style="transform: translateX(300%); color: white; font-weight: 200;">
+        <h1 class = "splash-header">You Won!</h1>
+    </div>
+
+    </body>
+    
+</html>

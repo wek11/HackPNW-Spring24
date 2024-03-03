@@ -1,0 +1,50 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins);
+
+.bg-burgundy {
+    background-color: rgb(57, 23, 17);
+}
+
+.main-text {
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.bg-blue-gray {
+    background-color: rgb(125, 122, 140)
+}
+
+section {
+    display: grid;
+    place-items: center;
+    align-content: center;
+    min-height: 100vh;
+    font-weight: 20;
+}
+
+body {
+    background-color: rgb(23, 21, 21);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.hidden {
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(-100%);
+    transition: all 1s;
+}
+
+.show {
+    opacity: 1;
+    filter: blur(0px);
+    transform: translateX(0);
+}
+
+button {
+    margin-left: 2px;
+    margin-right: 2px;
+}

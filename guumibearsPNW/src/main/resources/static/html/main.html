@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en">
+  <head>  
+    <!-- Creates a nav tag that is a set of navigation links-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-burgundy">
+      <a class="navbar-brand fadein" href="#">Recall Rumble</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <!-- Unordered list that has li elements, containing hyperlinks to the different html pages-->
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+          <li class="nav-item active">
+            <a class="nav-link" href="main.html">Home<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="MakeSet.html">Make A Set</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="MatchingGame.html">Play</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Extra</a>
+          </li>
+        </ul>
+        <!-- A search button incase we need to keep it, just using it as a reference-->
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+      </div>
+    </nav>    
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/main.css">
+    <script defer src = "../js/main.js"></script>
+    <title>Recall Rumble</title>
+  </head>
+  <body>
+    <!-- Header -->
+    <section class="hidden">
+      <h1 style="font-size: 80px">Recall Rumble</h1>
+    </section>
+
+    <!-- Description of game -->
+    <section class="hidden">
+      <p style="font-size: 20px;">
+        A memory based game where you can submit a set of terms and definitions, <br> then
+        play a game of memory, matching those terms to their said definitions. <br> A fun 
+        and efficient way to study and increase your knowledge!
+      </p>
+    </section>
+
+    <!-- About the project -->
+    <section  class="hidden">
+      <div class="container row">
+        <div><img class="col-lg-9 img-fluid" src="../css/assets/memory.png" alt="Cards" style="max-width:850px; padding-left: 0px; padding-right: 0px;"></div>
+        <div class="col-lg " style="color: white; "><span class="font-weight-bold">About the project:</span> This project was based on the game of memory that we all played and loved as a kid.
+          The rules of the game are simple and easy to understand, and strikes a strand of nostalgia within us all.
+        </div>
+      </div>
+    </section>
+
+    <!-- About the creators -->
+    <section class="hidden">
+      <div class=" main-text">
+        <div style="font-size: 30px; text-align: center;">About the creators:</div>
+        <div style="color: black; place-items: center;" class="row">
+          <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseWill" aria-expanded="false">
+            Will Klein
+          </button>
+          <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseYeehahn" aria-expanded="false">
+            Yeehahn Wang-Liu
+          </button>
+          <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseAndrew" aria-expanded="false">
+            Andrew Lapworth
+          </button>
+          <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseDennon" aria-expanded="false">
+            Dennon Hart
+          </button>
+        </div>
+      </div>
+      <div>
+        <div style="color: black;">
+          <div class="row">
+            <div class="collapse card" id="collapseWill" style="padding-top: 10px; width: 18rem;">
+                <img class="card-img-top" src=".../100px180/" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Will Klein</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+            </div>
+            <div class="collapse card" id="collapseYeehahn" style="padding-top: 10px; width: 18rem;">
+              <img class="card-img-top" src=".../100px180/" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Yeehahn Wang-Liu</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
+            <div class="collapse card" id="collapseAndrew" style="padding-top: 10px; width: 18rem;">
+              <img class="card-img-top" src=".../100px180/" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Andrew Lapworth</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
+            <div class="collapse card" id="collapseDennon" style="padding-top: 10px; width: 18rem;">
+              <img class="card-img-top" src=".../100px180/" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Dennon Hart</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> 
+
+    <!-- Instructions to play game -->
+    <section class="hidden">
+
+      <p style="text-align: center;"> 
+        <div class="font-weight-bold" style="font-size: 30px; padding-bottom:20px;">How to use:</div>
+        First, navigate to the "Make A Set" tab in the top left. From there, you can enter terms
+        and definitions to create a set of flash cards. Once you have entered all your cards,
+        navigate to the "Memory Game" tab in the navigation bar at the top of the page. Once there, 
+        you can being playing the memory game using your flash cards. Enjoy!
+      </p>
+    </section>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <!-- Scripts to reveal things for animations-->
+  </body>
+</html>
